@@ -1,4 +1,4 @@
-# Graph Self-Attention for learning graph representation with Transformer
+# GRPE: Relative Positional Encoding for Graph Transformer
 
 Official implementation of [GRPE](https://arxiv.org/abs/2201.12787). 
 We achieve the second best model on the [PCQM4Mv2 dataset of the OGB-LSC Leaderboard](https://ogb.stanford.edu/docs/lsc/leaderboards/).
