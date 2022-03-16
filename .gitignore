@@ -1,0 +1,9 @@
+pretrained_weight
+
+*.pyc
+*.pretrained_weight
+data
+result/
+
+.eggs/
+.eggs/*
