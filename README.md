@@ -32,7 +32,7 @@ Please check ```{dataset-name}.sh``` for detailed commands to reproduce the resu
 
 ### Installation
 ```bash
-pip install git+https://github.com/lenscloth/GraphSelfAttention
+pip install git+https://github.com/lenscloth/GRPE
 
 # Install pytorch & pytorch geometric version according to your environment
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
