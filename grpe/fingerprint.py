@@ -6,10 +6,10 @@ from torch_geometric.data import Data
 from torchvision.transforms import Compose
 
 from .dataset.tansform import ShortestPathGenerator, OneHotEdgeAttr, MoleculeCollator
-from .model.graph_self_attention import GraphSelfAttentionNetwork
+from .model.graph_self_attention import GRPENetwork
 
 
-class MoleculeFingerPrint(GraphSelfAttentionNetwork):
+class MoleculeFingerPrint(GRPENetwork):
     @torch.no_grad()
     def generate_fingerprint(self, smiles, fingerprint_stack=3):
         self.eval()
