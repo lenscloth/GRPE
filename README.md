@@ -53,3 +53,16 @@ finger = fingerprint_model.generate_fingerprint(
 
 ```
 
+### Citation
+
+Please use the bibtex below
+
+```
+@inproceedings{park2022grpe,
+  title={GRPE: Relative Positional Encoding for Graph Transformer},
+  author={Park, Wonpyo and Chang, Woong-Gi and Lee, Donggeon and Kim, Juntae and others},
+  booktitle={ICLR2022 Machine Learning for Drug Discovery},
+  year={2022}
+}
+```
+
